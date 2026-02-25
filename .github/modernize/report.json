@@ -2,8 +2,8 @@
   "version": "1.0.0",
   "producer": ".NET AppCAT CLI",
   "metadata": {
-    "analysisStartTime": "2026-02-25T06:38:03.7806667Z",
-    "analysisEndTime": "2026-02-25T06:38:03.9515102Z",
+    "analysisStartTime": "2026-02-25T07:38:50.1492223Z",
+    "analysisEndTime": "2026-02-25T07:38:50.3416402Z",
     "privacyMode": "Protected",
     "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2271074",
     "targetIds": [
@@ -52,7 +52,7 @@
   },
   "projects": [
     {
-      "path": "src/eShopLegacyWebForms",
+      "path": "src",
       "issues": 7,
       "storyPoints": 24,
       "properties": {
@@ -64,10 +64,10 @@
       "incidents": [
         {
           "ruleId": "Scale.0001",
-          "incidentId": "3434e8f6-d85c-451a-a4c6-fc52621ed666",
-          "location": "src/eShopLegacyWebForms",
+          "incidentId": "fd7dd4d1-1fc8-48f3-a71f-e7848f74d6a4",
+          "location": "src",
           "locationKind": "File",
-          "snippet": "Found 84 files matching the rule:\n\nsrc/eShopLegacyWebForms/Content/base.css\nsrc/eShopLegacyWebForms/Content/bootstrap-grid.css\nsrc/eShopLegacyWebForms/Content/bootstrap-grid.min.css\nsrc/eShopLegacyWebForms/Content/bootstrap-reboot.css\nsrc/eShopLegacyWebForms/Content/bootstrap-reboot.min.css\nsrc/eShopLegacyWebForms/Content/bootstrap.css\nsrc/eShopLegacyWebForms/Content/bootstrap.min.css\nsrc/eShopLegacyWebForms/Content/custom.css\nsrc/eShopLegacyWebForms/Content/site.css\nsrc/eShopLegacyWebForms/favicon.ico\nsrc/eShopLegacyWebForms/fonts/Montserrat-Bold.eot\nsrc/eShopLegacyWebForms/fonts/Montserrat-Bold.svg\nsrc/eShopLegacyWebForms/fonts/Montserrat-Bold.ttf\nsrc/eShopLegacyWebForms/fonts/Montserrat-Bold.woff\nsrc/eShopLegacyWebForms/fonts/Montserrat-Bold.woff2\nsrc/eShopLegacyWebForms/fonts/Montserrat-Regular.eot\nsrc/eShopLegacyWebForms/fonts/Montserrat-Regular.svg\nsrc/eShopLegacyWebForms/fonts/Montserrat-Regular.ttf\nsrc/eShopLegacyWebForms/fonts/Montserrat-Regular.woff\nsrc/eShopLegacyWebForms/fonts/Montserrat-Regular.woff2\nsrc/eShopLegacyWebForms/images/brand_dark.png\nsrc/eShopLegacyWebForms/images/brand.png\nsrc/eShopLegacyWebForms/images/main_banner.png\nsrc/eShopLegacyWebForms/images/main_footer_text.png\nsrc/eShopLegacyWebForms/Pics/1.png\nsrc/eShopLegacyWebForms/Pics/10.png\nsrc/eShopLegacyWebForms/Pics/11.png\nsrc/eShopLegacyWebForms/Pics/12.png\nsrc/eShopLegacyWebForms/Pics/2.png\nsrc/eShopLegacyWebForms/Pics/3.png\nsrc/eShopLegacyWebForms/Pics/4.png\nsrc/eShopLegacyWebForms/Pics/5.png\nsrc/eShopLegacyWebForms/Pics/6.png\nsrc/eShopLegacyWebForms/Pics/7.png\nsrc/eShopLegacyWebForms/Pics/8.png\nsrc/eShopLegacyWebForms/Pics/9.png\nsrc/eShopLegacyWebForms/Pics/dummy.png\nsrc/eShopLegacyWebForms/Scripts/bootstrap.bundle.js\nsrc/eShopLegacyWebForms/Scripts/bootstrap.bundle.min.js\nsrc/eShopLegacyWebForms/Scripts/bootstrap.js\nsrc/eShopLegacyWebForms/Scripts/bootstrap.min.js\nsrc/eShopLegacyWebForms/Scripts/esm/popper-utils.js\nsrc/eShopLegacyWebForms/Scripts/esm/popper-utils.min.js\nsrc/eShopLegacyWebForms/Scripts/esm/popper.js\nsrc/eShopLegacyWebForms/Scripts/esm/popper.min.js\nsrc/eShopLegacyWebForms/Scripts/jquery-3.3.1.intellisense.js\nsrc/eShopLegacyWebForms/Scripts/jquery-3.3.1.js\nsrc/eShopLegacyWebForms/Scripts/jquery-3.3.1.min.js\nsrc/eShopLegacyWebForms/Scripts/jquery-3.3.1.slim.js\nsrc/eShopLegacyWebForms/Scripts/jquery-3.3.1.slim.min.js\nsrc/eShopLegacyWebForms/Scripts/modernizr-2.8.3.js\nsrc/eShopLegacyWebForms/Scripts/popper-utils.js\nsrc/eShopLegacyWebForms/Scripts/popper-utils.min.js\nsrc/eShopLegacyWebForms/Scripts/popper.js\nsrc/eShopLegacyWebForms/Scripts/popper.min.js\nsrc/eShopLegacyWebForms/Scripts/respond.js\nsrc/eShopLegacyWebForms/Scripts/respond.matchmedia.addListener.js\nsrc/eShopLegacyWebForms/Scripts/respond.matchmedia.addListener.min.js\nsrc/eShopLegacyWebForms/Scripts/respond.min.js\nsrc/eShopLegacyWebForms/Scripts/umd/popper-utils.js\nsrc/eShopLegacyWebForms/Scripts/umd/popper-utils.min.js\nsrc/eShopLegacyWebForms/Scripts/umd/popper.js\nsrc/eShopLegacyWebForms/Scripts/umd/popper.min.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/DetailsView.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/Focus.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/GridView.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/Menu.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MenuStandards.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjax.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/SmartNav.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/TreeView.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/WebForms.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/WebParts.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/WebUIValidation.js\n",
+          "snippet": "Found 84 files matching the rule:\n\neShopLegacyWebForms/Content/base.css\neShopLegacyWebForms/Content/bootstrap-grid.css\neShopLegacyWebForms/Content/bootstrap-grid.min.css\neShopLegacyWebForms/Content/bootstrap-reboot.css\neShopLegacyWebForms/Content/bootstrap-reboot.min.css\neShopLegacyWebForms/Content/bootstrap.css\neShopLegacyWebForms/Content/bootstrap.min.css\neShopLegacyWebForms/Content/custom.css\neShopLegacyWebForms/Content/site.css\neShopLegacyWebForms/favicon.ico\neShopLegacyWebForms/fonts/Montserrat-Bold.eot\neShopLegacyWebForms/fonts/Montserrat-Bold.svg\neShopLegacyWebForms/fonts/Montserrat-Bold.ttf\neShopLegacyWebForms/fonts/Montserrat-Bold.woff\neShopLegacyWebForms/fonts/Montserrat-Bold.woff2\neShopLegacyWebForms/fonts/Montserrat-Regular.eot\neShopLegacyWebForms/fonts/Montserrat-Regular.svg\neShopLegacyWebForms/fonts/Montserrat-Regular.ttf\neShopLegacyWebForms/fonts/Montserrat-Regular.woff\neShopLegacyWebForms/fonts/Montserrat-Regular.woff2\neShopLegacyWebForms/images/brand_dark.png\neShopLegacyWebForms/images/brand.png\neShopLegacyWebForms/images/main_banner.png\neShopLegacyWebForms/images/main_footer_text.png\neShopLegacyWebForms/Pics/1.png\neShopLegacyWebForms/Pics/10.png\neShopLegacyWebForms/Pics/11.png\neShopLegacyWebForms/Pics/12.png\neShopLegacyWebForms/Pics/2.png\neShopLegacyWebForms/Pics/3.png\neShopLegacyWebForms/Pics/4.png\neShopLegacyWebForms/Pics/5.png\neShopLegacyWebForms/Pics/6.png\neShopLegacyWebForms/Pics/7.png\neShopLegacyWebForms/Pics/8.png\neShopLegacyWebForms/Pics/9.png\neShopLegacyWebForms/Pics/dummy.png\neShopLegacyWebForms/Scripts/bootstrap.bundle.js\neShopLegacyWebForms/Scripts/bootstrap.bundle.min.js\neShopLegacyWebForms/Scripts/bootstrap.js\neShopLegacyWebForms/Scripts/bootstrap.min.js\neShopLegacyWebForms/Scripts/esm/popper-utils.js\neShopLegacyWebForms/Scripts/esm/popper-utils.min.js\neShopLegacyWebForms/Scripts/esm/popper.js\neShopLegacyWebForms/Scripts/esm/popper.min.js\neShopLegacyWebForms/Scripts/jquery-3.3.1.intellisense.js\neShopLegacyWebForms/Scripts/jquery-3.3.1.js\neShopLegacyWebForms/Scripts/jquery-3.3.1.min.js\neShopLegacyWebForms/Scripts/jquery-3.3.1.slim.js\neShopLegacyWebForms/Scripts/jquery-3.3.1.slim.min.js\neShopLegacyWebForms/Scripts/modernizr-2.8.3.js\neShopLegacyWebForms/Scripts/popper-utils.js\neShopLegacyWebForms/Scripts/popper-utils.min.js\neShopLegacyWebForms/Scripts/popper.js\neShopLegacyWebForms/Scripts/popper.min.js\neShopLegacyWebForms/Scripts/respond.js\neShopLegacyWebForms/Scripts/respond.matchmedia.addListener.js\neShopLegacyWebForms/Scripts/respond.matchmedia.addListener.min.js\neShopLegacyWebForms/Scripts/respond.min.js\neShopLegacyWebForms/Scripts/umd/popper-utils.js\neShopLegacyWebForms/Scripts/umd/popper-utils.min.js\neShopLegacyWebForms/Scripts/umd/popper.js\neShopLegacyWebForms/Scripts/umd/popper.min.js\neShopLegacyWebForms/Scripts/WebForms/DetailsView.js\neShopLegacyWebForms/Scripts/WebForms/Focus.js\neShopLegacyWebForms/Scripts/WebForms/GridView.js\neShopLegacyWebForms/Scripts/WebForms/Menu.js\neShopLegacyWebForms/Scripts/WebForms/MenuStandards.js\neShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjax.js\neShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js\neShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js\neShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js\neShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js\neShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js\neShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js\neShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js\neShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js\neShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js\neShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js\neShopLegacyWebForms/Scripts/WebForms/SmartNav.js\neShopLegacyWebForms/Scripts/WebForms/TreeView.js\neShopLegacyWebForms/Scripts/WebForms/WebForms.js\neShopLegacyWebForms/Scripts/WebForms/WebParts.js\neShopLegacyWebForms/Scripts/WebForms/WebUIValidation.js\n",
           "targets": {
             "AppService.Windows": {
               "severity": "optional",
@@ -106,7 +106,7 @@
         },
         {
           "ruleId": "Connection.0001",
-          "incidentId": "112894e2-e78e-4873-ba2d-b7a65635115f",
+          "incidentId": "02fa920d-9793-4f6b-971e-221bb312acee",
           "location": "src/eShopLegacyWebForms/Web.config",
           "locationKind": "File",
           "snippet": "\u003Cadd name=\u0022CatalogDBContext\u0022 /\u003E",
@@ -148,7 +148,7 @@
         },
         {
           "ruleId": "Database.0003",
-          "incidentId": "34031e96-5979-4954-aa05-efdd8c21e4b5",
+          "incidentId": "1f908311-8472-4b23-bda4-698945ef62f5",
           "location": "src/eShopLegacyWebForms/Web.config",
           "locationKind": "File",
           "snippet": "\u003Cadd name=\u0022CatalogDBContext\u0022 /\u003E",
@@ -190,7 +190,7 @@
         },
         {
           "ruleId": "Identity.0002",
-          "incidentId": "6d3e87a7-f2e9-4bed-a2c7-7014b421d53a",
+          "incidentId": "571d798c-1993-4ab4-9238-fb6bf5c3729c",
           "location": "src/eShopLegacyWebForms/Web.config",
           "locationKind": "File",
           "snippet": "\u003Cadd name=\u0022CatalogDBContext\u0022 /\u003E",
@@ -232,7 +232,7 @@
         },
         {
           "ruleId": "Scale.0002",
-          "incidentId": "48365eab-252e-46b9-a55e-fa859e0b72a5",
+          "incidentId": "c1482fe7-e8a9-4ff2-a60a-8a916aa3c4eb",
           "location": "src/eShopLegacyWebForms/Web.config",
           "locationKind": "File",
           "snippet": "\u003CsessionState /\u003E",
@@ -274,7 +274,7 @@
         },
         {
           "ruleId": "Security.0002",
-          "incidentId": "9db1bc36-cbd1-40df-a795-e99583998b63",
+          "incidentId": "841b5a36-fd1a-401c-bdcc-c6ed146a8c1f",
           "location": "src/eShopLegacyWebForms/Web.config",
           "locationKind": "File",
           "snippet": "\u003CappSettings /\u003E",
@@ -316,7 +316,7 @@
         },
         {
           "ruleId": "Security.0002",
-          "incidentId": "b26fad71-2b66-4f1d-bb39-329ebe9aedf3",
+          "incidentId": "92c64668-3d7c-4e94-b652-97cee1cb65e1",
           "location": "src/eShopLegacyWebForms/Web.config",
           "locationKind": "File",
           "snippet": "\u003CconnectionStrings /\u003E",
@@ -358,7 +358,7 @@
         },
         {
           "ruleId": "Local.0004",
-          "incidentId": "c42c4b0e-f5c4-4231-95e3-1d56197da041",
+          "incidentId": "1f9d4361-73a3-4a62-835b-5c9860cc604b",
           "location": "src/eShopLegacyWebForms/log4Net.xml",
           "locationKind": "File",
           "snippet": "\u003Cappender name=\u0022file\u0022 /\u003E",
