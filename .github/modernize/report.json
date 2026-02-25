@@ -2,8 +2,8 @@
   "version": "1.0.0",
   "producer": ".NET AppCAT CLI",
   "metadata": {
-    "analysisStartTime": "2026-02-25T01:54:09.2449792Z",
-    "analysisEndTime": "2026-02-25T01:54:11.7129024Z",
+    "analysisStartTime": "2026-02-25T06:38:03.7806667Z",
+    "analysisEndTime": "2026-02-25T06:38:03.9515102Z",
     "privacyMode": "Protected",
     "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2271074",
     "targetIds": [
@@ -20,7 +20,8 @@
       "Azure App Service",
       "Azure Kubernetes Service",
       "Azure Container Apps",
-      "Azure App Service Container"
+      "Azure App Service Container",
+      "Azure App Service Managed Instance"
     ],
     "os": [
       "windows",
@@ -41,38 +42,32 @@
       },
       "category": {
         "Scale": 2,
-        "Local": 1,
         "Connection": 1,
         "Database": 1,
         "Identity": 1,
-        "Security": 2
+        "Security": 2,
+        "Local": 1
       }
     }
   },
   "projects": [
     {
-      "path": "src\\eShopLegacyWebForms\\eShopLegacyWebForms.csproj",
+      "path": "src/eShopLegacyWebForms",
       "issues": 7,
       "storyPoints": 24,
       "properties": {
-        "appName": "eShopLegacyWebForms",
-        "frameworks": [
-          ".NETFramework,Version=v4.7.2"
-        ],
-        "languages": [
-          "C#"
-        ],
-        "tools": [
-          "MSBuild"
-        ]
+        "appName": "",
+        "frameworks": [],
+        "languages": [],
+        "tools": []
       },
       "incidents": [
         {
           "ruleId": "Scale.0001",
-          "incidentId": "0d7b28bc-36de-4e42-b39d-1d0b63e4697c",
-          "location": "src\\eShopLegacyWebForms\\eShopLegacyWebForms.csproj",
+          "incidentId": "3434e8f6-d85c-451a-a4c6-fc52621ed666",
+          "location": "src/eShopLegacyWebForms",
           "locationKind": "File",
-          "snippet": "Found 83 files matching the rule:\r\n\r\nContent\\base.css\r\nContent\\bootstrap-grid.css\r\nContent\\bootstrap-grid.min.css\r\nContent\\bootstrap-reboot.css\r\nContent\\bootstrap-reboot.min.css\r\nContent\\bootstrap.css\r\nContent\\bootstrap.min.css\r\nContent\\custom.css\r\nContent\\site.css\r\nfavicon.ico\r\nfonts\\Montserrat-Bold.eot\r\nfonts\\Montserrat-Bold.svg\r\nfonts\\Montserrat-Bold.ttf\r\nfonts\\Montserrat-Bold.woff\r\nfonts\\Montserrat-Bold.woff2\r\nfonts\\Montserrat-Regular.eot\r\nfonts\\Montserrat-Regular.svg\r\nfonts\\Montserrat-Regular.ttf\r\nfonts\\Montserrat-Regular.woff\r\nfonts\\Montserrat-Regular.woff2\r\nimages\\brand_dark.png\r\nimages\\brand.png\r\nimages\\main_banner.png\r\nimages\\main_footer_text.png\r\nPics\\1.png\r\nPics\\10.png\r\nPics\\11.png\r\nPics\\12.png\r\nPics\\2.png\r\nPics\\3.png\r\nPics\\4.png\r\nPics\\5.png\r\nPics\\6.png\r\nPics\\7.png\r\nPics\\8.png\r\nPics\\9.png\r\nPics\\dummy.png\r\nScripts\\bootstrap.bundle.js\r\nScripts\\bootstrap.bundle.min.js\r\nScripts\\bootstrap.js\r\nScripts\\bootstrap.min.js\r\nScripts\\esm\\popper-utils.js\r\nScripts\\esm\\popper-utils.min.js\r\nScripts\\esm\\popper.js\r\nScripts\\esm\\popper.min.js\r\nScripts\\jquery-3.3.1.js\r\nScripts\\jquery-3.3.1.min.js\r\nScripts\\jquery-3.3.1.slim.js\r\nScripts\\jquery-3.3.1.slim.min.js\r\nScripts\\modernizr-2.8.3.js\r\nScripts\\popper-utils.js\r\nScripts\\popper-utils.min.js\r\nScripts\\popper.js\r\nScripts\\popper.min.js\r\nScripts\\respond.js\r\nScripts\\respond.matchmedia.addListener.js\r\nScripts\\respond.matchmedia.addListener.min.js\r\nScripts\\respond.min.js\r\nScripts\\umd\\popper-utils.js\r\nScripts\\umd\\popper-utils.min.js\r\nScripts\\umd\\popper.js\r\nScripts\\umd\\popper.min.js\r\nScripts\\WebForms\\DetailsView.js\r\nScripts\\WebForms\\Focus.js\r\nScripts\\WebForms\\GridView.js\r\nScripts\\WebForms\\Menu.js\r\nScripts\\WebForms\\MenuStandards.js\r\nScripts\\WebForms\\MSAjax\\MicrosoftAjax.js\r\nScripts\\WebForms\\MSAjax\\MicrosoftAjaxApplicationServices.js\r\nScripts\\WebForms\\MSAjax\\MicrosoftAjaxComponentModel.js\r\nScripts\\WebForms\\MSAjax\\MicrosoftAjaxCore.js\r\nScripts\\WebForms\\MSAjax\\MicrosoftAjaxGlobalization.js\r\nScripts\\WebForms\\MSAjax\\MicrosoftAjaxHistory.js\r\nScripts\\WebForms\\MSAjax\\MicrosoftAjaxNetwork.js\r\nScripts\\WebForms\\MSAjax\\MicrosoftAjaxSerialization.js\r\nScripts\\WebForms\\MSAjax\\MicrosoftAjaxTimer.js\r\nScripts\\WebForms\\MSAjax\\MicrosoftAjaxWebForms.js\r\nScripts\\WebForms\\MSAjax\\MicrosoftAjaxWebServices.js\r\nScripts\\WebForms\\SmartNav.js\r\nScripts\\WebForms\\TreeView.js\r\nScripts\\WebForms\\WebForms.js\r\nScripts\\WebForms\\WebParts.js\r\nScripts\\WebForms\\WebUIValidation.js\r\n",
+          "snippet": "Found 84 files matching the rule:\n\nsrc/eShopLegacyWebForms/Content/base.css\nsrc/eShopLegacyWebForms/Content/bootstrap-grid.css\nsrc/eShopLegacyWebForms/Content/bootstrap-grid.min.css\nsrc/eShopLegacyWebForms/Content/bootstrap-reboot.css\nsrc/eShopLegacyWebForms/Content/bootstrap-reboot.min.css\nsrc/eShopLegacyWebForms/Content/bootstrap.css\nsrc/eShopLegacyWebForms/Content/bootstrap.min.css\nsrc/eShopLegacyWebForms/Content/custom.css\nsrc/eShopLegacyWebForms/Content/site.css\nsrc/eShopLegacyWebForms/favicon.ico\nsrc/eShopLegacyWebForms/fonts/Montserrat-Bold.eot\nsrc/eShopLegacyWebForms/fonts/Montserrat-Bold.svg\nsrc/eShopLegacyWebForms/fonts/Montserrat-Bold.ttf\nsrc/eShopLegacyWebForms/fonts/Montserrat-Bold.woff\nsrc/eShopLegacyWebForms/fonts/Montserrat-Bold.woff2\nsrc/eShopLegacyWebForms/fonts/Montserrat-Regular.eot\nsrc/eShopLegacyWebForms/fonts/Montserrat-Regular.svg\nsrc/eShopLegacyWebForms/fonts/Montserrat-Regular.ttf\nsrc/eShopLegacyWebForms/fonts/Montserrat-Regular.woff\nsrc/eShopLegacyWebForms/fonts/Montserrat-Regular.woff2\nsrc/eShopLegacyWebForms/images/brand_dark.png\nsrc/eShopLegacyWebForms/images/brand.png\nsrc/eShopLegacyWebForms/images/main_banner.png\nsrc/eShopLegacyWebForms/images/main_footer_text.png\nsrc/eShopLegacyWebForms/Pics/1.png\nsrc/eShopLegacyWebForms/Pics/10.png\nsrc/eShopLegacyWebForms/Pics/11.png\nsrc/eShopLegacyWebForms/Pics/12.png\nsrc/eShopLegacyWebForms/Pics/2.png\nsrc/eShopLegacyWebForms/Pics/3.png\nsrc/eShopLegacyWebForms/Pics/4.png\nsrc/eShopLegacyWebForms/Pics/5.png\nsrc/eShopLegacyWebForms/Pics/6.png\nsrc/eShopLegacyWebForms/Pics/7.png\nsrc/eShopLegacyWebForms/Pics/8.png\nsrc/eShopLegacyWebForms/Pics/9.png\nsrc/eShopLegacyWebForms/Pics/dummy.png\nsrc/eShopLegacyWebForms/Scripts/bootstrap.bundle.js\nsrc/eShopLegacyWebForms/Scripts/bootstrap.bundle.min.js\nsrc/eShopLegacyWebForms/Scripts/bootstrap.js\nsrc/eShopLegacyWebForms/Scripts/bootstrap.min.js\nsrc/eShopLegacyWebForms/Scripts/esm/popper-utils.js\nsrc/eShopLegacyWebForms/Scripts/esm/popper-utils.min.js\nsrc/eShopLegacyWebForms/Scripts/esm/popper.js\nsrc/eShopLegacyWebForms/Scripts/esm/popper.min.js\nsrc/eShopLegacyWebForms/Scripts/jquery-3.3.1.intellisense.js\nsrc/eShopLegacyWebForms/Scripts/jquery-3.3.1.js\nsrc/eShopLegacyWebForms/Scripts/jquery-3.3.1.min.js\nsrc/eShopLegacyWebForms/Scripts/jquery-3.3.1.slim.js\nsrc/eShopLegacyWebForms/Scripts/jquery-3.3.1.slim.min.js\nsrc/eShopLegacyWebForms/Scripts/modernizr-2.8.3.js\nsrc/eShopLegacyWebForms/Scripts/popper-utils.js\nsrc/eShopLegacyWebForms/Scripts/popper-utils.min.js\nsrc/eShopLegacyWebForms/Scripts/popper.js\nsrc/eShopLegacyWebForms/Scripts/popper.min.js\nsrc/eShopLegacyWebForms/Scripts/respond.js\nsrc/eShopLegacyWebForms/Scripts/respond.matchmedia.addListener.js\nsrc/eShopLegacyWebForms/Scripts/respond.matchmedia.addListener.min.js\nsrc/eShopLegacyWebForms/Scripts/respond.min.js\nsrc/eShopLegacyWebForms/Scripts/umd/popper-utils.js\nsrc/eShopLegacyWebForms/Scripts/umd/popper-utils.min.js\nsrc/eShopLegacyWebForms/Scripts/umd/popper.js\nsrc/eShopLegacyWebForms/Scripts/umd/popper.min.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/DetailsView.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/Focus.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/GridView.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/Menu.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MenuStandards.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjax.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/SmartNav.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/TreeView.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/WebForms.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/WebParts.js\nsrc/eShopLegacyWebForms/Scripts/WebForms/WebUIValidation.js\n",
           "targets": {
             "AppService.Windows": {
               "severity": "optional",
@@ -104,48 +99,6 @@
             },
             "AppServiceManagedInstance.Windows": {
               "severity": "optional",
-              "effort": 3
-            }
-          },
-          "labels": []
-        },
-        {
-          "ruleId": "Local.0004",
-          "incidentId": "a20d25d3-fbc7-4e6f-b817-3cfea18409ac",
-          "location": "src\\eShopLegacyWebForms\\log4Net.xml",
-          "locationKind": "File",
-          "snippet": "\u003Cappender name=\u0022file\u0022 /\u003E",
-          "targets": {
-            "AppService.Windows": {
-              "severity": "mandatory",
-              "effort": 3
-            },
-            "AppService.Linux": {
-              "severity": "mandatory",
-              "effort": 3
-            },
-            "AKS.Linux": {
-              "severity": "mandatory",
-              "effort": 3
-            },
-            "AKS.Windows": {
-              "severity": "mandatory",
-              "effort": 3
-            },
-            "ACA": {
-              "severity": "mandatory",
-              "effort": 3
-            },
-            "AppServiceContainer.Linux": {
-              "severity": "mandatory",
-              "effort": 3
-            },
-            "AppServiceContainer.Windows": {
-              "severity": "mandatory",
-              "effort": 3
-            },
-            "AppServiceManagedInstance.Windows": {
-              "severity": "potential",
               "effort": 3
             }
           },
@@ -153,8 +106,8 @@
         },
         {
           "ruleId": "Connection.0001",
-          "incidentId": "96d31edc-5f3f-4b42-b69b-88506125bf4f",
-          "location": "src\\eShopLegacyWebForms\\Web.config",
+          "incidentId": "112894e2-e78e-4873-ba2d-b7a65635115f",
+          "location": "src/eShopLegacyWebForms/Web.config",
           "locationKind": "File",
           "snippet": "\u003Cadd name=\u0022CatalogDBContext\u0022 /\u003E",
           "targets": {
@@ -195,8 +148,8 @@
         },
         {
           "ruleId": "Database.0003",
-          "incidentId": "89d726fc-bd8d-48f6-86b0-c2923aaae1bb",
-          "location": "src\\eShopLegacyWebForms\\Web.config",
+          "incidentId": "34031e96-5979-4954-aa05-efdd8c21e4b5",
+          "location": "src/eShopLegacyWebForms/Web.config",
           "locationKind": "File",
           "snippet": "\u003Cadd name=\u0022CatalogDBContext\u0022 /\u003E",
           "targets": {
@@ -237,8 +190,8 @@
         },
         {
           "ruleId": "Identity.0002",
-          "incidentId": "fda555e7-75e1-4d79-8a2a-d4a2ad7388eb",
-          "location": "src\\eShopLegacyWebForms\\Web.config",
+          "incidentId": "6d3e87a7-f2e9-4bed-a2c7-7014b421d53a",
+          "location": "src/eShopLegacyWebForms/Web.config",
           "locationKind": "File",
           "snippet": "\u003Cadd name=\u0022CatalogDBContext\u0022 /\u003E",
           "targets": {
@@ -279,8 +232,8 @@
         },
         {
           "ruleId": "Scale.0002",
-          "incidentId": "3567311a-ed7e-428e-8814-6095b7f61a5c",
-          "location": "src\\eShopLegacyWebForms\\Web.config",
+          "incidentId": "48365eab-252e-46b9-a55e-fa859e0b72a5",
+          "location": "src/eShopLegacyWebForms/Web.config",
           "locationKind": "File",
           "snippet": "\u003CsessionState /\u003E",
           "targets": {
@@ -321,8 +274,8 @@
         },
         {
           "ruleId": "Security.0002",
-          "incidentId": "baa12e0a-bd6c-4508-a10a-520860301e14",
-          "location": "src\\eShopLegacyWebForms\\Web.config",
+          "incidentId": "9db1bc36-cbd1-40df-a795-e99583998b63",
+          "location": "src/eShopLegacyWebForms/Web.config",
           "locationKind": "File",
           "snippet": "\u003CappSettings /\u003E",
           "targets": {
@@ -363,8 +316,8 @@
         },
         {
           "ruleId": "Security.0002",
-          "incidentId": "df9fe373-2cd2-46e2-8aa8-a6fdacf04503",
-          "location": "src\\eShopLegacyWebForms\\Web.config",
+          "incidentId": "b26fad71-2b66-4f1d-bb39-329ebe9aedf3",
+          "location": "src/eShopLegacyWebForms/Web.config",
           "locationKind": "File",
           "snippet": "\u003CconnectionStrings /\u003E",
           "targets": {
@@ -402,6 +355,48 @@
             }
           },
           "labels": []
+        },
+        {
+          "ruleId": "Local.0004",
+          "incidentId": "c42c4b0e-f5c4-4231-95e3-1d56197da041",
+          "location": "src/eShopLegacyWebForms/log4Net.xml",
+          "locationKind": "File",
+          "snippet": "\u003Cappender name=\u0022file\u0022 /\u003E",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "information",
+              "effort": 3
+            }
+          },
+          "labels": []
         }
       ]
     }
@@ -421,28 +416,6 @@
         {
           "title": "Azure CDN",
           "url": "https://go.microsoft.com/fwlink/?linkid=2250392"
-        }
-      ],
-      "labels": []
-    },
-    "Local.0004": {
-      "id": "Local.0004",
-      "description": "Logging to local or network paths detected.\n\nLogging APIs that write to disk might not work on Azure App Service or Container.\n\nUse logging that stores logs in locations outside of the host unless its specifically required by your app. You can also use logging capabilities embedded in Azure, such as Azure App Service logging or Application Insights.\n\nFor migrating to AKS, use LogMonitor tool that can capture logs written to files, the console, or write logs and redirect them to Azure.",
-      "title": "Logging to local or network paths detected",
-      "severity": "mandatory",
-      "effort": 3,
-      "links": [
-        {
-          "title": "Logging in Azure App Service",
-          "url": "https://go.microsoft.com/fwlink/?LinkID=2251711"
-        },
-        {
-          "title": "Logging in Application Insights",
-          "url": "https://go.microsoft.com/fwlink/?LinkID=2251712"
-        },
-        {
-          "title": "LogMonitor",
-          "url": "https://go.microsoft.com/fwlink/?LinkID=2251308"
         }
       ],
       "labels": []
@@ -497,7 +470,7 @@
     },
     "Scale.0002": {
       "id": "Scale.0002",
-      "description": "Session state stored in-proc or in local process is detected./n/nIn-proc or local process stored session state not immediately prevents an application from working in Azure, however, is not recommended because it would make scaling the Azure App Service or Azure Kubernetes Service more difficult./n/nAzure provides multiple ways to store session state in a scalable way using  Azure Cache for Redis, Azure Cosmos DB or other services.",
+      "description": "Session state stored in-proc or in local process is detected.\n\nIf you are targeting Managed Instance on Azure App Service, move session to Azure Cache for Redis or Cosmos DB. In-proc session impedes scale-out; Managed Instance does not change session semantics.\n\nWhile if targeting other Azure compute services:\n\nIn-proc or local process stored session state not immediately prevents an application from working in Azure, however, is not recommended because it would make scaling the Azure App Service or Azure Kubernetes Service more difficult.\n\nAzure provides multiple ways to store session state in a scalable way using Azure Cache for Redis, Azure Cosmos DB or other services.",
       "title": "Session state stored in-proc or in local process is detected",
       "severity": "potential",
       "effort": 3,
@@ -539,6 +512,32 @@
         {
           "title": "Centralized app configuration and security",
           "url": "https://go.microsoft.com/fwlink/?LinkID=2250733"
+        }
+      ],
+      "labels": []
+    },
+    "Local.0004": {
+      "id": "Local.0004",
+      "description": "Logging to local or network paths detected.\n\nIf you are targeting Managed Instance on Azure App Service, prefer Application Insights/App Service logging. If filesystem logs are required, write to a mounted Azure Files share configured via storage mounts and Key Vault secrets.\n\nLogging APIs that write to disk might not work on Azure App Service or Container.\n\nUse logging that stores logs in locations outside of the host unless its specifically required by your app. You can also use logging capabilities embedded in Azure, such as Azure App Service logging or Application Insights.\n\nFor migrating to AKS, use LogMonitor tool that can capture logs written to files, the console, or write logs and redirect them to Azure.",
+      "title": "Logging to local or network paths detected",
+      "severity": "mandatory",
+      "effort": 3,
+      "links": [
+        {
+          "title": "[Managed Instance] Storage mounts",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2346952"
+        },
+        {
+          "title": "Logging in Azure App Service",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251711"
+        },
+        {
+          "title": "Logging in Application Insights",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251712"
+        },
+        {
+          "title": "LogMonitor",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251308"
         }
       ],
       "labels": []
